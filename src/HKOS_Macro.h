@@ -23,6 +23,7 @@
 typedef int  (*HKOS_RETURN_STATUS_CALLBACK)(int, char**);
 typedef void (*HKOS_CALLBACK)(int, char **);
 typedef unsigned char u8;
+typedef u8 *PCHAR;
 typedef u8 ID;
 typedef u8 SCHEDULER;
 typedef u8 PRIORITY;
